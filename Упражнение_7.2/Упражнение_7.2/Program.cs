@@ -35,7 +35,7 @@ public class BankAccount
         type = accountType;
     }
 
-    // Стандартные геттеры
+    // геттеры
     public int GetAccountNumber()
     {
         return accountNumber;
@@ -51,7 +51,7 @@ public class BankAccount
         return type;
     }
 
-    // Вывод информации через обычную склейку строк
+    // Вывод информации
     public void PrintInfo()
     {
         Console.WriteLine("Номер счета: " + accountNumber);
